@@ -6,29 +6,8 @@ const dotenv = require("dotenv");
 // const User = require('./models/User');
 
 
-// vaibhav add-ons
-// const session = require('express-session');
-// const passport = require('passport');
-// const LocalStrategy = require('passport-local').Strategy;
-// const JwtStrategy = require('passport-jwt').Strategy;
-// const ExtractJwt = require('passport-jwt').ExtractJwt;
-// const jwt = require('jsonwebtoken');
-// const cookieParser = require('cookie-parser');
 
-// app.use(cookieParser());
 
-// const opts = {}
-// // opts.jwtFromRequest = cookieExtractor;
-// opts.secretOrKey = process.env.SECRET_KEY;
-
-// // for front-end 
-// app.use(express.static(path.resolve(__dirname, 'dist')));
-
-// app.get('*', (req, res) => {
-//   res.sendFile(path.resolve(__dirname, 'dist'));
-// });
-
-// Vaibhav adds-on end
 
 
 dotenv.config();
