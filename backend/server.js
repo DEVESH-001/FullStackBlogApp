@@ -21,8 +21,8 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Adjust this to match your frontend's origin
-    allowedHeaders: ["Content-Type", "Authorization"], // Added Authorization header
+    origin: "http://localhost:5173", 
+    allowedHeaders: ["Content-Type", "Authorization"], 
   })
 );
 
@@ -44,12 +44,7 @@ app.listen(PORT, () => {
 });
 
 
-// Routes
 
-// useless
-app.get("/", async (req, res) => {
-  res.send(`Why So Serious`);
-})
 
 app.use("/api/auth", authRoutes);
 app.use("/api/posts", postRoutes);
